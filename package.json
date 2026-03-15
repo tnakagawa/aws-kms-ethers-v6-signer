@@ -1,6 +1,6 @@
 {
   "name": "@tnaka-dev/aws-kms-ethers-v6-signer",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "A signer implementation for ethers.js v6 that uses AWS Key Management Service (KMS) for secure cryptographic signing operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
