@@ -1,0 +1,54 @@
+{
+  "name": "@tnaka-dev/aws-kms-ethers-v6-signer",
+  "version": "1.0.0",
+  "description": "A signer implementation for ethers.js v6 that uses AWS Key Management Service (KMS) for secure cryptographic signing operations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnakagawa/aws-kms-ethers-v6-signer.git"
+  },
+  "keywords": [],
+  "author": "Takatoshi Nakagawa",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tnakagawa/aws-kms-ethers-v6-signer/issues"
+  },
+  "homepage": "https://github.com/tnakagawa/aws-kms-ethers-v6-signer#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint": "^10.0.3",
+    "eslint-plugin-jest": "^29.15.0",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0",
+    "jiti": "^2.6.1",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "asn1js": "^3.0.7",
+    "aws-sdk-client-mock": "^4.1.0",
+    "pkijs": "^3.3.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-kms": "^3.1009.0",
+    "@peculiar/asn1-ecc": "^2.6.1",
+    "@peculiar/asn1-schema": "^2.6.0",
+    "@peculiar/asn1-x509": "^2.6.1",
+    "ethers": "^6.16.0"
+  }
+}
